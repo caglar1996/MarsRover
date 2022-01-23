@@ -1,10 +1,4 @@
-﻿/*
- * Developer: Çağlar KARABACAK
- * Date: 23.01.2022
- * Solutions: MarsRover
- */
-
-using MarsRover.Models;
+﻿using MarsRover.Models;
 using MarsTraveler.Constants;
 using MarsTraveler.Models;
 using System;
