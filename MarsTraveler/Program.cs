@@ -37,7 +37,6 @@ namespace MarsRover
             }
 
             Console.WriteLine("Output:");
-            // Oluşturulan roverlerin keşif işlemi ve ekrana yazdırma
             foreach (var rover in roverList)
             {
                 RoverDiscovery(rover);
