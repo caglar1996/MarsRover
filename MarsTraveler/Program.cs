@@ -60,7 +60,7 @@ namespace MarsRover
 
                 return new int[matrisModel.EndX, matrisModel.EndY];
             }
-            return null;
+            return default;
         }
 
         /// <summary>
@@ -75,7 +75,7 @@ namespace MarsRover
                 var locationModel = new RoverLocationModel();
                 locationModel.X = Convert.ToInt16(input.Split(' ')[0]);
                 locationModel.Y = Convert.ToInt16(input.Split(' ')[1]);
-                locationModel.Direction = input.Split(' ')[2].ToCharArray()[0];
+                locationModel.Direction = input.Split(' ')[2][0]; // Array den split
 
                 return locationModel;
             }
